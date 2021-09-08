@@ -5,5 +5,6 @@ import { Component } from "@angular/core";
     templateUrl: './top-nav-bar.component.html'
 })
 export class TopNavBarComponent {
-
+    title:string = "Spotify App 1"
+    currentlyPlaying:string = "I can't stop the rain"
 }
